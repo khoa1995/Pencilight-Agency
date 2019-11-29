@@ -13,17 +13,30 @@
 <body>
   <!--Header-->
   <section class="navbar">
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+          <a class="navbar-brand" href="#">
+              <img src="./img/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
   </section>
   <!--Banner-->
   <section class="banner-slider">
@@ -155,17 +168,76 @@
       <div class="row">
         <div class="col">
           <div>Công ty Agency<p>Thiết kế sáng tạo Pencilight</p></div>
-          <div></div>
+          <div class="contact__add">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+            </span>
+            <span>127D Ba Huyen Thanh Quan, Ward 9, District 3, HCMC</span>
+          </div>
+          <div class="contact__add">
+              <span><i class="fa fa-phone" aria-hidden="true"></i>
+              </span>
+              <span>0947611686</span>
+            </div>
+            <div class="contact__add">
+                <span><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </span>
+                <span>thanhlam.dohuynh@gmail.com</span>
+              </div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <div class="col">
+          <div>Về PENCILIGHT</div>
+          <a href="">Chính sách và điều khoản</a>
+          <a href="">Các dự án đã thực hiện</a>
+          <a href="">Tin tức</a>
+          <a href="">Liên hệ</a>
+        </div>
+        <div class="col">
+            <div class="text-uppercase">Recent Post</div>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+        </div>
+        <div class="col">
+            <div class="text-uppercase">Recent Comments</div>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+            <a href=""> <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
+        </div>
+        <div class="col">
+            <div class="text-uppercase">Tags</div>
+            <div class="tags text-uppercase">
+              <span>Design</span>
+              <span>UX-UI</span>
+              <span>Demo</span>
+              <span>Branding</span>
+              <span>Office</span>
+              <span>Work</span>
+              <span>Media</span>
+            </div>
+            <div class="connections">
+                <div class="text-uppercase">Connect with US</div>
+                <div class="social-media">
+                  <span><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  </span>
+                  <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                </div>
+
+            </div>
+        </div>
       </div>
     </div>
   </section>
   <!--Footer-->
-
+  <div class="footer">
+    <div class="logo float-left">
+      <img src="./img/logo.png" alt="logo">
+    </div>
+    <div class="sign float-right">
+        <p>&copy2019 | All rights reserved | Site by Lam Do</p>
+    </div>
+  </div>
   <!--javasript-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
