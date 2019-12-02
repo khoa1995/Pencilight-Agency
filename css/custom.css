@@ -1,4 +1,89 @@
-.slider .carousel-slider .carousel-control-prev,
-.slider .carousel-slider .carousel-control-next {
-  
+.navbar-wrapper {
+    z-index: 5;
+    background-color: transparent;
+    position: absolute;
+}
+.navbar-group .nav-item {
+    margin: 0 2rem;
+    padding: 0.5rem 1rem;
+    line-height: 1.3;
+}
+
+.navbar-group .nav-item.active, .navbar-group .nav-item:hover {
+    background-color: #ED7411;
+    border-radius: 3px;
+}
+.navbar-group .nav-item.active .nav-link, .navbar-group .nav-item:hover .nav-link {
+    color: white;
+}
+.navbar-group .nav-item .nav-link {
+    color: black;
+}
+/* SLIDER */
+.banner-slider .carousel-slider .carousel-control-prev .prev-icon,
+.banner-slider .carousel-slider .carousel-control-next .next-icon {
+  border-radius: 50%;
+  border: 2px solid #ED7411;
+  padding: .25rem .5rem;
+  color: #ED7411;
+}
+.banner-slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: black;
+}
+.banner-slider .carousel-indicators li.active {
+    background-color: #ED7411;
+}
+.banner-slider .intro-brand {
+    letter-spacing: 0.5rem;
+    color: black;
+}
+.banner-slider .intro-title {
+    font-size: 4rem;
+}
+.banner-slider .intro-connection .btn {
+    background-color: #ED7411;
+    color: white;
+    box-shadow:0 4px 6px 0 rgba(0, 0, 0, 0.25);
+    letter-spacing: 1.2px;
+}
+.banner-slider .icon-eye-intro {
+    border-right: 1px solid;
+    margin-right: .5rem;
+    padding-right: .5rem;
+}
+.banner-slider .intro-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 11rem;
+}
+.banner-slider .icon-eye-intro img {
+    height: 24px;
+    width: 17px;
+}
+.banner-slider .carousel-caption {
+    padding-bottom: 10rem;
+}
+/* BODY */
+.body-intro {
+    background-color: #101D44;
+}
+.text-intro {
+    padding-right: 7rem;
+}
+.pic-round {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 15px 19px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: white
+}
+.pic-round img {
+    height: 20px;
 }

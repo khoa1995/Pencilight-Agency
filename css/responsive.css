@@ -1,0 +1,14 @@
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) {
+    .navbar-wrapper {
+        position: relative;
+    }
+    .navbar-group {
+        padding-top: 1rem;
+    }
+    .navbar-group .nav-item {
+        padding: auto;
+        margin: auto;
+    }
+}
