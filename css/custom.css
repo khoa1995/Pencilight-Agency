@@ -108,3 +108,12 @@
 .text-blog {
     background-color: white;
 }
+.sub-grid-right {
+    margin-top: 2rem;
+}
+.sub-grid-right .card-img-top {
+    height: 50rem;
+}
+.sub-grid-right .card-body {
+    height: 29rem;
+}
