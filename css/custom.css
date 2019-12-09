@@ -50,7 +50,7 @@
     letter-spacing: 1.2px;
 }
 .icon-eye-intro {
-    border-right: 1px solid;
+    border-right: 1px solid black;
     margin-right: .5rem;
     padding-right: .5rem;
 }
@@ -67,7 +67,7 @@
     padding-bottom: 10rem;
 }
 /* BODY */
-.body-intro, .body-portfolio  {
+.body-intro, .body-portfolio, .intro-portfolio  {
     background-color: #101D44;
 }
 .text-intro {
@@ -107,6 +107,7 @@
 }
 .text-blog {
     background-color: white;
+    letter-spacing: 1px;    
 }
 .sub-grid-right {
     margin-top: 2rem;
@@ -115,5 +116,44 @@
     height: 50rem;
 }
 .sub-grid-right .card-body {
-    height: 29rem;
+    height: 40.5rem;
+}
+.text-bru {
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.text-terre {
+    font-size: 13px;
+    color: #262626;
+    padding: 1rem 0;
+}
+.text-web {
+    color: #959595;
+    padding: .5rem 0 1.5rem;
+}
+.blog-more-view {
+    padding: 1rem 0;
+    color: #0865de;
+    cursor: pointer;
+}
+.blog-more-view .fa-chevron-right {
+    border-radius: 50%;
+    padding: .5rem .5rem .5rem .75rem;
+    background-color: #0865de;
+    color: white;
+}
+.sub-grid .sub-title, .sub-grid-right .sub-title {
+    color: #ed7411   
+}
+.sub-grid .sub-text, .sub-grid-right .sub-text {
+    line-height: 1.5;
+    height: 60px;
+    overflow: hidden;
+    color: #333333
+}
+.sub-grid-right-content {
+    padding-top:24rem;
+}
+.body-portfolio .card {
+    border-radius: 40px;
 }
