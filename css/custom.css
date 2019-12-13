@@ -50,6 +50,10 @@
 .slider-people.banner-slider .carousel-indicators li.active{
     background-color: white;
 }
+.slider-people.banner-slider .carousel-indicators li {
+    background-color: #101D44;
+    opacity: 1;
+}
 .banner-slider .intro-brand {
     letter-spacing: 0.5rem;
     color: black;
@@ -83,6 +87,9 @@
 /* BODY */
 .body-intro, .body-portfolio, .intro-portfolio  {
     background-color: #101D44;
+}
+.body-intro {
+    padding: 3.5rem 3.5rem 3.5rem 10rem 
 }
 .text-intro {
     padding-right: 7rem;
@@ -170,4 +177,69 @@
 }
 .body-portfolio .card {
     border-radius: 40px;
+}
+/* PEOPLE */
+.info-name {
+    color: #101D44
+}
+.info-person {
+    padding: 1.5rem 1rem;
+}
+.info-text {
+    font-size: 20px;
+}
+.img-banner-people {
+    max-height: 30rem;
+}
+/* CONTACT */
+.contact {
+    background-color: #101D44;
+}
+.contact-col {
+    height: 70px; 
+}
+.contact-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+}
+.contact-title {
+    font-size: 1.25rem;
+}
+.line-orange {
+    border: 1px solid #ed7411;
+    width: 100%;
+    display: block;
+    height: 0;
+}
+.contact__add {
+    display: flex;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+.contact__add-text {
+    opacity: 0.7
+}
+.contact__link a {
+    color: white;
+    opacity: 0.7;
+}
+.contact-icon {
+    color: #ed7411;
+    font-size:1rem;
+    padding-right: 1rem;
+}
+.social-media span {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    padding: 1rem 3rem;
+}
+.sign {
+ margin-left: auto;
+ display: flex;
+ align-items: center;
 }

@@ -2,11 +2,11 @@
   padding: 10rem;
 }
 .color-black {
-  color: black;
+  color: black!important;
 }
 .color-white {
-  color: white;
+  color: white!important;
 }
 .color-orange {
-  color: #ED7411
+  color: #ED7411!important
 }

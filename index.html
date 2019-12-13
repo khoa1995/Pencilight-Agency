@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -41,7 +40,7 @@
             <a class="nav-link" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -93,7 +92,7 @@
   <!--Body-->
   <section class="main-body">
     <!--introduction-->
-    <div class="body-intro p-5">
+    <div class="body-intro">
       <div class="container">
         <div class="intro-section part-one">
           <div class="row">
@@ -153,7 +152,7 @@
     <div class="body-portfolio py-5">
       <div class="container">
         <h4 class="text-uppercase text-center title-portfolio">Portfolio</h4>
-        <p class="text-center px-5 color-white text-portfolio">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+        <p class="text-center p-1 px-5 color-white text-portfolio">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
           magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
         <div class="group-blog">
           <div class="group-blog-1 d-flex">
@@ -268,9 +267,18 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="overlay-slider"></div>
-              <img src="./img/banner.png" class="d-block w-100" alt="...">
+              <img src="./img/banner.png" class="d-block w-100 img-banner-people" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                
+                <div class="authorize d-flex">
+                  <span class="img-avatar">
+                    <img src="./img/avatar.png"/>
+                  </span>
+                  <span class="info-person text-left">
+                    <h3 class="info-name text-uppercase">do huynh thanh lam</h3>
+                    <div class="info-text color-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                      magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -280,101 +288,127 @@
     <!--Contact-->
     <div class="contact">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <div class="color-orange"> Công ty Agency
-              <p>Thiết kế sáng tạo Pencilight</p>
-            </div>
-            <div class="contact__add">
-              <span>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-              </span>
-              <span>127D Ba Huyen Thanh Quan, Ward 9, District 3, HCMC</span>
-            </div>
-            <div class="contact__add">
-              <span>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-              </span>
-              <span>0947611686</span>
-            </div>
-            <div class="contact__add">
-              <span>
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-              </span>
-              <span>thanhlam.dohuynh@gmail.com</span>
-            </div>
-          </div>
-          <div class="col">
-            <div class="color-orange">Về PENCILIGHT</div>
-            <a href="">Chính sách và điều khoản</a>
-            <a href="">Các dự án đã thực hiện</a>
-            <a href="">Tin tức</a>
-            <a href="">Liên hệ</a>
-          </div>
-          <div class="col">
-            <div class="text-uppercase color-orange">Recent Post</div>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-          </div>
-          <div class="col">
-            <div class="text-uppercase">Recent Comments</div>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-            <a href="">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <i class="fa fa-chevron-right" aria-hidden="true"></i> Lorem ipsum</a>
-          </div>
-          <div class="col">
-            <div class="text-uppercase">Tags</div>
-            <div class="tags text-uppercase">
-              <span>Design</span>
-              <span>UX-UI</span>
-              <span>Demo</span>
-              <span>Branding</span>
-              <span>Office</span>
-              <span>Work</span>
-              <span>Media</span>
-            </div>
-            <div class="connections">
-              <div class="text-uppercase">Connect with US</div>
-              <div class="social-media">
-                <span>
-                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                </span>
-                <span>
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </span>
+        <div class="contact-wrapper">
+            <div class="row">
+                <div class="col">
+                  <div class="contact-col color-orange"> 
+                    <div class="contact-title">
+                      <div class="row">
+                          <div class="col">Công ty Agency</div>
+                          <!-- <div class="col">
+                              <div class="line-orange"></div>
+                          </div> -->
+                      </div>
+                    </div>
+                    <div class="contact-title">Thiết kế sáng tạo Pencilight</div>
+                  </div>
+                  <div class="contact__add">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="color-white contact__add-text">127D Ba Huyen Thanh Quan, Ward 9, District 3, HCMC</div>
+                  </div>
+                  <div class="contact__add">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="color-white contact__add-text">0947611686</div>
+                  </div>
+                  <div class="contact__add">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="color-white contact__add-text">thanhlam.dohuynh@gmail.com</div>
+                  </div>
+                </div>
+                <div class="col">
+                      <div class="contact-col color-orange"> 
+                          <div class="contact-title text-uppercase">VỀ PENCILIGHT</div>
+                      </div>
+                      <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">Chính sách và điều khoản</a></div>
+                      </div>
+                      <div class="contact__add contact__link">
+                          <div class="color-white"><a href="">Các dự án đã thực hiện</a></div>                          
+                      </div>
+                      <div class="contact__add contact__link">
+                          <div class="color-white"><a href="">Tin tức</a></div>                          
+                      </div>
+                      <div class="contact__add contact__link">
+                          <div class="color-white"><a href="">Liên hệ</a></div>                          
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="contact-col color-orange"> 
+                        <div class="contact-title text-uppercase">recent post</div>
+                    </div>
+                    <div class="contact__add contact__link">
+                      <div class="color-white"><a href="">>> Lorem ipsum</a></div>
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-col color-orange"> 
+                        <div class="contact-title text-uppercase">recent recomments</div>
+                    </div>
+                    <div class="contact__add contact__link">
+                      <div class="color-white"><a href="">>> Lorem ipsum</a></div>
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                    <div class="contact__add contact__link">
+                        <div class="color-white"><a href="">>> Lorem ipsum</a></div>                          
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-col color-orange"> 
+                        <div class="contact-title text-uppercase">Tags</div>
+                    </div>
+                  <div class="contact__add tags d-block">
+                    <span class="badge badge-secondary text-uppercase">Design</span>
+                    <span class="badge badge-secondary text-uppercase">UX-UI</span>
+                    <span class="badge badge-secondary text-uppercase">Demo</span>
+                    <span class="badge badge-secondary text-uppercase">Branding</span>
+                    <span class="badge badge-secondary text-uppercase">Office</span>
+                    <span class="badge badge-secondary text-uppercase">Work</span>
+                    <span class="badge badge-secondary text-uppercase">Media</span>
+                  </div>
+                  <div class="connections color-orange">
+                    <div class="contact-title text-uppercase">Connect with US</div>
+                    <div class="social-media">
+                      <span>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </span>
+                    </div>
+      
+                  </div>
+                </div>
               </div>
-
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
   <!--Footer-->
   <div class="footer">
-    <div class="logo float-left">
+    <div class="logo">
       <img src="./img/logo.png" alt="logo">
     </div>
-    <div class="sign float-right">
+    <div class="sign">
       <p>&copy2019 | All rights reserved | Site by Lam Do</p>
     </div>
   </div>
